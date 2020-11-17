@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
                 if(edtUser.getText().toString().equals(user) &&
                         edtPass.getText().toString().equals(pass)){
                     Toast.makeText(LoginActivity.this, "¡Bienvenido!", Toast.LENGTH_SHORT).show();
-                    Intent i = new Intent(getApplicationContext(), EnviarMaterialActivity.class);
+                    Intent i = new Intent(getApplicationContext(), OrdenCompraActivity.class);
                     startActivity(i);
                 }else{
                     Toast.makeText(getApplicationContext(),"Usuario o Contraseña Incorrecto!", Toast.LENGTH_LONG).show();
