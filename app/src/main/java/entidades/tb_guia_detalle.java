@@ -7,6 +7,10 @@ public class tb_guia_detalle {
             v_cod_barras, dt_fecha_registro, v_cod_usuario_registro, dt_fecha_modificacion, v_cod_usuario_modificacion;
     private double d_cantidad;
 
+    public tb_guia_detalle() {
+
+    }
+
     public tb_guia_detalle(int id_tb_guia_detalle, int id_tb_guia, int id_tb_orden_compra_detalle, int id_tb_almacen, int id_tb_material, int b_lote, int b_dia_vencimiento, int i_estado, String v_cod_material, String v_lote, String dt_fecha_vencimiento, String v_unidad_medida, String v_cod_barras, String dt_fecha_registro, String v_cod_usuario_registro, String dt_fecha_modificacion, String v_cod_usuario_modificacion, double d_cantidad) {
         this.id_tb_guia_detalle = id_tb_guia_detalle;
         this.id_tb_guia = id_tb_guia;

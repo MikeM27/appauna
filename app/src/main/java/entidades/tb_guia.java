@@ -6,6 +6,11 @@ public class tb_guia {
     private String v_cod_guia, v_doc_material, v_anio, i_estado_guia, v_motivo_anulacion, dt_fecha_registro,
             v_cod_usuario_registro, dt_fecha_modificacion, v_cod_usuario_modificacion;
 
+    public tb_guia() {
+
+    }
+
+
     public tb_guia(int id_tb_guia, int d_tb_orden_compra, String v_cod_guia, String v_doc_material,
                    String v_anio, String i_estado_guia, String v_motivo_anulacion, String dt_fecha_registro,
                    String v_cod_usuario_registro, String dt_fecha_modificacion, String v_cod_usuario_modificacion) {

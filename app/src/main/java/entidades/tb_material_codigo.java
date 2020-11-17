@@ -6,6 +6,10 @@ public class tb_material_codigo {
     private String v_cod_barras, v_cod_proveedor, dt_fecha_registro,
             v_cod_usuario_registro, dt_fecha_modificacion, v_cod_usuario_modificacion;
 
+    public tb_material_codigo() {
+
+    }
+
     public tb_material_codigo(int id_tb_material_codigo, int id_tb_material, String v_cod_barras,
                               String v_cod_proveedor, String dt_fecha_registro, String v_cod_usuario_registro,
                               String dt_fecha_modificacion, String v_cod_usuario_modificacion) {

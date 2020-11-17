@@ -8,6 +8,10 @@ public class tb_orden_compra_detalle {
     private double d_cantidad, d_cantidad_pendiente;
 
 
+    public tb_orden_compra_detalle(){
+
+    }
+
     public tb_orden_compra_detalle(int id_tb_orden_compra_detalle, int id_tb_orden_compra,
                                    int id_tb_sociedad_centro_almacen, int b_lote, int b_dia_vencimiento,
                                    int i_estado, String v_posicion, String v_cod_material, String v_descripcion,

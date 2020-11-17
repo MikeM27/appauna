@@ -6,6 +6,10 @@ public class tb_sociedad_centro_almacen {
     private String v_cod_sociedad, v_descripcion_sociedad, v_cod_centro, v_descripcion_centro, v_cod_almacen, v_descripcion_almacen,
             dt_fecha_registro, v_usuario_registro, dt_fecha_modificacion, v_usuario_modificacion;
 
+    public tb_sociedad_centro_almacen() {
+
+    }
+
     public tb_sociedad_centro_almacen(int id_tb_sociedad_centro_almacen, String v_cod_sociedad,
                                       String v_descripcion_sociedad, String v_cod_centro,
                                       String v_descripcion_centro, String v_cod_almacen,

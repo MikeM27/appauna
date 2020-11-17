@@ -6,6 +6,11 @@ public class tb_orden_compra {
     private String v_codigo_orden_compra, v_cod_centro, v_nombre_centro, v_grupo_compra, v_sociedad, v_cod_proveedor, v_ruc_proveedor,
             v_descripcion_proveedor, dt_fecha_registro, v_cod_usuario_registro, dt_fecha_modificacion, v_cod_usuario_modificacion, dt_fecha_pedido;
 
+
+    public tb_orden_compra() {
+
+    }
+
     public tb_orden_compra(int id_tb_orden_compra, String v_codigo_orden_compra, String v_cod_centro,
                            String v_nombre_centro, String v_grupo_compra, String v_sociedad,
                            String v_cod_proveedor, String v_ruc_proveedor, String v_descripcion_proveedor,

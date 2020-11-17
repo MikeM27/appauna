@@ -5,6 +5,10 @@ public class tb_usuario {
     private int id_tb_usuario;
     private String cod_login_name, cod_centro, dt_fecha_registro, v_cod_usuario_registro, dt_fecha_modificacion, v_cod_usuario_modificacion;
 
+    public tb_usuario(){
+
+    }
+
     public tb_usuario(int id_tb_usuario, String cod_login_name, String cod_centro, String dt_fecha_registro,
                       String v_cod_usuario_registro, String dt_fecha_modificacion, String v_cod_usuario_modificacion) {
         this.id_tb_usuario = id_tb_usuario;

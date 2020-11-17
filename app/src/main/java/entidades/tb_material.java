@@ -5,6 +5,10 @@ public class tb_material {
     private int id_tb_material, id_tb_almacen_material, b_lote, b_dia_vencimiento, i_estado;
     private String v_cod_material, v_descripcion, v_unidad_Medida, dt_fecha_registro, v_usuario_registro, dt_fecha_modificacion, v_usuario_modificacion;
 
+    public tb_material() {
+
+    }
+
     public tb_material(int id_tb_material, int id_tb_almacen_material, int b_lote, int b_dia_vencimiento,
                        int i_estado, String v_cod_material, String v_descripcion, String v_unidad_Medida,
                        String dt_fecha_registro, String v_usuario_registro, String dt_fecha_modificacion,
