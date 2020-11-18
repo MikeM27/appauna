@@ -1,4 +1,4 @@
-package entidades;
+package com.example.appauna.modals;
 
 public class tb_usuario {
 

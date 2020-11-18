@@ -1,4 +1,4 @@
-package openhelper;
+package com.example.appauna.openhelper;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

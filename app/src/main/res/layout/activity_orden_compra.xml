@@ -43,7 +43,6 @@
                 android:layout_marginRight="10dp"
                 android:inputType="textPersonName" />
 
-
             <LinearLayout
                 android:id="@+id/btnCamaraPallet"
                 android:layout_width="59dp"

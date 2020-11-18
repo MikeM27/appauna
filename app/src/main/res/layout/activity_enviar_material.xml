@@ -51,7 +51,6 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
                         android:text="Orden de Compra:"
                         android:textColor="@android:color/white"
                         android:textSize="15dp" />
@@ -89,31 +88,33 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Código de Guía" />
+                    android:text="Código de Guía"
+                    />
 
-                <EditText
-                    android:id="@+id/edtCodGuia"
+
+                <SearchView
+                    android:id="@+id/svCodGuia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:iconifiedByDefault="false" />
+
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="516dp"
+            android:layout_height="479dp"
             android:orientation="vertical">
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvEnviarMaterial"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="match_parent" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="67dp">
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/btnAnular"
